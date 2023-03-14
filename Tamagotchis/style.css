@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    width: 0px;
+}
+#Corpo{
+    background-image: url("https://images6.alphacoders.com/114/1148744.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#Corpo > h1{
+    font-size: 20vh;
+    text-align: center;
+    color: black;
+    text-shadow: 0.3vh 0.3vh 0.6vh black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Corpo > img{
+    border: 0.2vh solid transparent;
+    width: 80vh;
+    display: block;
+    margin: auto;
+}
+#Status{
+    border: 0.4vh solid black;
+    border-radius: 2vh;
+    background: gray;
+    width: 52vh;
+    top: 0;
+    margin-top: 4vh;
+    margin-left: 2vh;
+    text-align: center;
+    color: yellow;
+    position: absolute;
+    text-shadow: 0.3vh 0.3vh 0.6vh yellow;
+    font-size: 4vh;
+}
+#StatusUP{
+    border: 0.2vh solid transparent;
+    width: 60vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 2vh;
+}
+#StatusUP > button{
+    all: unset;
+    color: blue;
+    font-size: 3vh;
+    border: 0.2vh solid black;
+    background: white;
+    border-radius: 2vh;
+    width: 40vh;
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+    cursor: pointer;
+    transition: .4s;
+    text-align: center;
+}
+#StatusUP > button:hover{
+    filter: invert(1);
+}
+#Corpo > button{
+    all: unset;
+    font-size: 4vh;
+    border: 0.2vh solid white;
+    background: steelblue;
+    color: black;
+    transition: .4s;
+    border-radius: 2vh;
+    width: 50vh;
+    text-align: center;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+#Corpo > button:hover{
+    filter: invert(1);
+}

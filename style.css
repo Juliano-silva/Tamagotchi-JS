@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#ovos{
+    background-image: url("https://pbs.twimg.com/media/DWS8siaXkAAQVad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#ovos > a > img{
+    background: transparent;
+    width: 60vh;
+    margin-left: 1vh;
+    margin-top: 2vh;
+}
+#RotaTama{
+    width: 100%;
+    height: 100vh;
+}
